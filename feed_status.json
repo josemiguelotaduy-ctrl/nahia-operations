@@ -1,0 +1,184 @@
+{
+  "updated_at_madrid": "14/11/2026 17:55",
+  "feed_url": "https://josemiguelotaduy-ctrl.github.io/nahia-operations/chatgpt_products.csv",
+  "active_products": 235,
+  "total_variants": 247,
+  "in_stock": 238,
+  "out_of_stock": 9,
+  "brands": [
+    {
+      "brand": "Costa Nova",
+      "variants": 32,
+      "in_stock": 31,
+      "out_of_stock": 1
+    },
+    {
+      "brand": "Manucurist",
+      "variants": 28,
+      "in_stock": 26,
+      "out_of_stock": 2
+    },
+    {
+      "brand": "Côté Table",
+      "variants": 25,
+      "in_stock": 24,
+      "out_of_stock": 1
+    },
+    {
+      "brand": "Sabre Paris",
+      "variants": 22,
+      "in_stock": 21,
+      "out_of_stock": 1
+    },
+    {
+      "brand": "Casa López",
+      "variants": 15,
+      "in_stock": 15,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Graccioza",
+      "variants": 14,
+      "in_stock": 14,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Livlig",
+      "variants": 13,
+      "in_stock": 13,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Plint",
+      "variants": 12,
+      "in_stock": 10,
+      "out_of_stock": 2
+    },
+    {
+      "brand": "Mi-Re",
+      "variants": 10,
+      "in_stock": 10,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "La Rochère",
+      "variants": 10,
+      "in_stock": 10,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Printworks",
+      "variants": 8,
+      "in_stock": 8,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Mojoo",
+      "variants": 8,
+      "in_stock": 8,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "The Viana Fan",
+      "variants": 7,
+      "in_stock": 7,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Royal Albert",
+      "variants": 7,
+      "in_stock": 6,
+      "out_of_stock": 1
+    },
+    {
+      "brand": "Steamery",
+      "variants": 6,
+      "in_stock": 6,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Tinne+Mia",
+      "variants": 6,
+      "in_stock": 6,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Home Healthy Home",
+      "variants": 6,
+      "in_stock": 5,
+      "out_of_stock": 1
+    },
+    {
+      "brand": "TASCHEN",
+      "variants": 3,
+      "in_stock": 3,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Marshall",
+      "variants": 2,
+      "in_stock": 2,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Vendome Press",
+      "variants": 2,
+      "in_stock": 2,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "John Derian",
+      "variants": 2,
+      "in_stock": 2,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Thames & Hudson",
+      "variants": 2,
+      "in_stock": 2,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Jazz Kissa",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "PHAIDON",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Chronicle Books",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Galison",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "Laurence King Publishing",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "ABRAMS",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    },
+    {
+      "brand": "MACK",
+      "variants": 1,
+      "in_stock": 1,
+      "out_of_stock": 0
+    }
+  ]
+}
