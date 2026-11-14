@@ -203,7 +203,7 @@
       </div>
       <div class="kpi">
         <div class="kpi-label">Última Sincronización</div>
-        <div class="kpi-val" style="font-size:22px;margin-top:6px;">14/11/2026 17:57</div>
+        <div class="kpi-val" style="font-size:22px;margin-top:6px;">14/11/2026 18:11</div>
         <div class="kpi-note">Frecuencia: Cada hora 24/7</div>
       </div>
     </div>
@@ -315,7 +315,7 @@
       return Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, "0")).join("");
     }
     function checkAuth() {
-      const saved = localStorage.getItem("nahia_portal_auth");
+      const saved = localStorage.getItem("nahia_portal_auth") || localStorage.getItem("nahia_pnl_auth") || localStorage.getItem("nahia_ads_auth") || localStorage.getItem("nahia_social_auth") || localStorage.getItem("nahia_auth");
       if (PORTAL_VALID.includes(saved)) {
         document.getElementById("loginOverlay").style.display = "none";
       }
@@ -325,8 +325,13 @@
       const val = document.getElementById("pwdInput").value.trim();
       const h1 = await sha256(val);
       const h2 = await sha256(val.toLowerCase());
-      if (PORTAL_VALID.includes(h1) || PORTAL_VALID.includes(h2)) {
-        localStorage.setItem("nahia_portal_auth", PORTAL_VALID.includes(h1) ? h1 : h2);
+      const matched = PORTAL_VALID.includes(h1) ? h1 : (PORTAL_VALID.includes(h2) ? h2 : null);
+      if (matched) {
+        localStorage.setItem("nahia_portal_auth", matched);
+        localStorage.setItem("nahia_pnl_auth", matched);
+        localStorage.setItem("nahia_ads_auth", matched);
+        localStorage.setItem("nahia_social_auth", matched);
+        localStorage.setItem("nahia_auth", matched);
         document.getElementById("loginOverlay").style.display = "none";
       } else {
         document.getElementById("loginErr").style.display = "block";
