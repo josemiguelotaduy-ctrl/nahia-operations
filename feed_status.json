@@ -1,16 +1,16 @@
 {
-  "updated_at_madrid": "19/11/2026 18:48",
+  "updated_at_madrid": "19/11/2026 19:48",
   "feed_url": "https://josemiguelotaduy-ctrl.github.io/nahia-operations/chatgpt_products.csv",
   "active_products": 235,
   "total_variants": 247,
-  "in_stock": 235,
-  "out_of_stock": 12,
+  "in_stock": 237,
+  "out_of_stock": 10,
   "brands": [
     {
       "brand": "Costa Nova",
       "variants": 32,
-      "in_stock": 29,
-      "out_of_stock": 3
+      "in_stock": 31,
+      "out_of_stock": 1
     },
     {
       "brand": "Manucurist",
