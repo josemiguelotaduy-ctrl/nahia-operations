@@ -1,10 +1,10 @@
 {
-  "updated_at_madrid": "20/11/2026 16:47",
+  "updated_at_madrid": "20/11/2026 17:50",
   "feed_url": "https://josemiguelotaduy-ctrl.github.io/nahia-operations/chatgpt_products.csv",
   "active_products": 235,
   "total_variants": 247,
-  "in_stock": 238,
-  "out_of_stock": 9,
+  "in_stock": 237,
+  "out_of_stock": 10,
   "brands": [
     {
       "brand": "Costa Nova",
@@ -27,8 +27,8 @@
     {
       "brand": "Sabre Paris",
       "variants": 22,
-      "in_stock": 21,
-      "out_of_stock": 1
+      "in_stock": 20,
+      "out_of_stock": 2
     },
     {
       "brand": "Casa López",
