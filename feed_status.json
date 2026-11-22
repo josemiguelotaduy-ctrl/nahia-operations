@@ -1,10 +1,10 @@
 {
-  "updated_at_madrid": "22/11/2026 03:47",
+  "updated_at_madrid": "22/11/2026 11:38",
   "feed_url": "https://josemiguelotaduy-ctrl.github.io/nahia-operations/chatgpt_products.csv",
   "active_products": 235,
   "total_variants": 247,
-  "in_stock": 237,
-  "out_of_stock": 10,
+  "in_stock": 236,
+  "out_of_stock": 11,
   "brands": [
     {
       "brand": "Costa Nova",
@@ -123,8 +123,8 @@
     {
       "brand": "Vendome Press",
       "variants": 2,
-      "in_stock": 2,
-      "out_of_stock": 0
+      "in_stock": 1,
+      "out_of_stock": 1
     },
     {
       "brand": "John Derian",
